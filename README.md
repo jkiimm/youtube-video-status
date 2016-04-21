@@ -8,6 +8,15 @@ gotcha youtube video status without creaking
 [![Dependency Status](https://david-dm.org/jkiimm/youtube-video-status.svg)](https://david-dm.org/jkiimm/youtube-video-status)
 [![devDependency Status](https://david-dm.org/jkiimm/youtube-video-status/dev-status.svg)](https://david-dm.org/jkiimm/youtube-video-status#info=devDependencies)
 
+## Note
+
+- **public** (defined by YouTube) -> `accessible`
+- **unlisted** (defined by YouTube) -> `accessible`
+- **private** (defined by YouTube) -> `private`
+- deleted anyway -> `unavailable`
+- not exist -> `unavailable`
+- else -> `unknown`
+
 ## Installation
 
 ```sh
